@@ -21,7 +21,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <script src="//content.jwplatform.com/libraries/VQrcBiHh.js" />
+        <script src="//content.jwplatform.com/libraries/s9ZoyLhb.js" />
       </Head>
 
       <div id="myElement" />
@@ -30,6 +30,7 @@ export default function Home() {
         onClick={() => {
           // The new plugin is not part of plugins here
           console.log(window.jwplayer().plugins);
+          console.log(window.jwplayer().version);
         }}
       >
         Check plugins
